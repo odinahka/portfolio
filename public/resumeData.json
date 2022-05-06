@@ -161,6 +161,12 @@
         "description": "This is an eCommerce application, specifically for gadgets, built with React JS 🎨🃏",
         "image": "linkedin.jpg",
         "url": "https://odinaka-ecommerce.web.app/"
+      },
+      {
+        "title": "Amazon 2.0 (React JS, Next JS and Tailwind)",
+        "description": "This is an amazing fully responsive Amazon Clone, built with React JS, Next JS and Tailwind🎨🃏",
+        "image": "linkedin.jpg",
+        "url": "https://amazon-odinaka.vercel.app/"
       }
     ]
   },
