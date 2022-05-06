@@ -257,7 +257,7 @@ ul#nav li.current a { color: #F06000; }
 .bars li {
    position: relative;
   	margin-bottom: 60px;
-  	background:  #080808;
+  	background:  #fafafa;
   	height: 42px;
   	border-radius: 3px;
 }
@@ -277,7 +277,7 @@ ul#nav li.current a { color: #F06000; }
 
    margin: 0;
    padding-right: 24px;
-  	background: white;
+  	background: rgb(174, 169, 180);
    display: inline-block;
   	height: 42px;
    line-height: 42px;
