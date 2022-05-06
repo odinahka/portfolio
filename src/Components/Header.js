@@ -1,12 +1,11 @@
 import React from "react";
-import TypeWriter from "react-typewriter";
+import TypeWriter from "typewriter-effect";
+import styles from "./Header.module.css";
 
 const Header = ({ data }) => {
   if (data) {
     var name = data.name;
-    var occupation = data.occupation;
     var description = data.description;
-    var city = data.address.city;
     var networks = data.social.map(function (network) {
       return (
         <li key={network.name}>
@@ -27,7 +26,6 @@ const Header = ({ data }) => {
         <a className="mobile-btn" href="#home" title="Hide navigation">
           Hide navigation
         </a>
-
         <ul id="nav" className="nav">
           <li className="current">
             <a className="smoothscroll" href="#home">
@@ -40,8 +38,23 @@ const Header = ({ data }) => {
             </a>
           </li>
           <li>
-            <a className="smoothscroll" href="#resume">
-              Resume
+            <a className="smoothscroll" href="#education">
+              Education
+            </a>
+          </li>
+          <li>
+            <a className="smoothscroll" href="#work">
+              Experience
+            </a>
+          </li>
+          <li>
+            <a className="smoothscroll" href="#skills">
+              Skills
+            </a>
+          </li>
+          <li>
+            <a className="smoothscroll" href="#certifications">
+              Certifications
             </a>
           </li>
           <li>
@@ -65,11 +78,20 @@ const Header = ({ data }) => {
       <div className="row banner">
         <div className="banner-text">
           <h1 className="responsive-headline">
-            <TypeWriter typing={0.5}>{name ? `I'm ${name}.` : null}</TypeWriter>
+            {name ? ` Hi, I'm ${name}.` : null}
           </h1>
-          <h3>
-            Based in {city}. <span>{occupation}</span>. {description}.
-          </h3>
+          <div className={styles.typewriter_block}>
+            <h3>
+              <TypeWriter
+                options={{
+                  strings: description ? description : null,
+                  autoStart: true,
+                  loop: true,
+                }}
+              />
+            </h3>
+          </div>
+
           <hr />
           <ul className="social">{networks}</ul>
         </div>

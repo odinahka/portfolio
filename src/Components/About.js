@@ -1,4 +1,6 @@
 import React from "react";
+// import { downloadPdfDocument } from "../lib/myLib";
+import styles from "./About.module.css";
 
 const About = ({ data }) => {
   if (data) {
@@ -9,19 +11,18 @@ const About = ({ data }) => {
     var city = data.address.city;
     var state = data.address.state;
     var zip = data.address.zip;
-    var phone = data.phone;
     var email = data.email;
-    var resumeDownload = data.resumedownload;
+    // var resumeDownload = data.resumedownload;
   }
 
   return (
-    <section id="about">
+    <section className={styles.about} id="about">
       <div className="row">
         <div className="three columns">
           <img
-            className="profile-pic"
+            className={styles.profile_pic}
             src={profilepic}
-            alt="Sonny's Profile Pic"
+            alt="Odinaka's Profile Pic"
           />
         </div>
         <div className="nine columns main-col">
@@ -29,7 +30,7 @@ const About = ({ data }) => {
 
           <p>{bio}</p>
           <div className="row">
-            <div className="columns contact-details">
+            <div className={"columns " + styles.contact_details}>
               <h2>Contact Details</h2>
               <p className="address">
                 <span>{name}</span>
@@ -40,18 +41,16 @@ const About = ({ data }) => {
                   {city} {state}, {zip}
                 </span>
                 <br />
-                <span>{phone}</span>
-                <br />
-                <span>{email}</span>
+                <span>Feel free to <a href={"mailto:"+email}>shoot me a mail</a></span>
               </p>
             </div>
-            <div className="columns download">
+            {/* <div className="columns download">
               <p>
-                <a href={resumeDownload} className="button">
+                <a type="button" className="button" onClick={downloadPdfDocument} >
                   <i className="fa fa-download"></i>Download Resume
                 </a>
               </p>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

@@ -1,0 +1,20 @@
+
+ .typewriter_block h1 {
+    color: #efefef;
+    margin-bottom: 20px;
+}
+.typewriter1_block  {
+    color: #efefef;
+    border-radius: 10px;
+    background: #8e7d7d;
+    list-style: none;
+    cursor: default;
+    box-shadow: 0 1px 6px #303438, 0 1px 4px rgb(0, 115, 128);
+    transition: 0.3s ease all;
+}
+.typewriter_block:hover {
+    box-shadow: 0 1px 6px #303438, 0 1px 4px rgb(0, 115, 128);
+    font-weight: bold;
+    filter: drop-shadow(0 0 10px #1688f0);
+    transform: scale(1.1);
+}

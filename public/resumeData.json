@@ -1,45 +1,49 @@
 {
   "main": {
-    "name": "Sonny Sangha",
-    "occupation": "CEO of PAPA",
-    "description": "I eat, sleep and breathe React",
-    "image": "profilepic.jpg",
-    "bio": "Hi there! I am Sonny! You might also know me as PAPA React. I've been coding for over 10 years now. As a Full Stack developer I've worked both with startups and large corporations to help build & scale their companies. Along the journey I realised my passion existed in helping others excel and pursue their dreams as upcoming developers. With this passion, I have now trained thousand's of developers across the globe. Through live coaching sessions on Youtube, I have accumulated several MILLION views demonstrating how to apply developer skills in a range of cool builds and challenges. I deliver REAL VALUE by teaching REAL WORLD projects to help students enter the world of web development. You’ll get hands-on experience and learn the skills that are required to succeed in the real-world in this community.",
-    "contactmessage": "Get in touch with me to be a part of the PAPA fam!",
-    "email": "papareact.team@gmail.com",
-    "phone": "+44 1234567899",
+    "name": "Odinaka Afocha",
+    "occupation": "Software Developer",
+    "description":[
+      "I build cool stuffs with code",
+      "A critical thinker.",
+      "A passion driven developer.",
+      "glad to see you here",
+      "I learn fast.", "I make faster.",
+      "Many see problems, I see solutions.",
+      "a problem solver.",
+      "hoping you send me a Hi! 🖐"]
+,
+    "image": "profilepic.jpeg",
+    "bio": "Hi there! I am Odinaka! I've been coding for over 3 years now. As a Full Stack developer I use C#'s ASP .NET CORE for building APIs; I design and connect APIs to database using different ORMs like Entity Framework Core, Dapper, RepoDb, etc; I build API collections and automated test scripts using Postman; and I build frontend solutions using ReactJs and NextJs. Welcome to my world...",
+    "contactmessage": "Get in touch with me!",
+    "email": "odinakafocha@gmail.com",
+    "phone": "+2348169000261",
     "address": {
-      "street": "123 Dev Lane",
-      "city": "London",
-      "state": "Devosphere",
-      "zip": "W3B D3V"
+      "street": "Lagos",
+      "city": "Lagos",
+      "state": "Nigeria",
+      "zip": "101211"
     },
-    "website": "https://www.papareact.com/course",
-    "resumedownload": "http://papareact.com",
+    "website": "",
+    "resumedownload": "",
     "social": [
       {
-        "name": "youtube",
-        "url": "https://www.youtube.com/channel/UCqeTj_QAnNlmt7FwzNwHZnA",
-        "className": "fa fa-youtube"
-      },
-      {
         "name": "facebook",
-        "url": "https://www.facebook.com/sonny.sangha.3",
+        "url": "https://facebook.com/odinakachukwu.nobel",
         "className": "fa fa-facebook"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/in/saajansangha",
+        "url": "https://linkedin.com/in/odinaka-afocha",
         "className": "fa fa-linkedin"
       },
       {
         "name": "instagram",
-        "url": "https://www.instagram.com/ssssangha/",
+        "url": "https://instagram.com/classic_nobel",
         "className": "fa fa-instagram"
       },
       {
         "name": "github",
-        "url": "https://github.com/PapaReact",
+        "url": "https://github.com/odinahka",
         "className": "fa fa-github"
       }
     ]
@@ -48,28 +52,58 @@
     "skillmessage": "My Programming Language Proficiency",
     "education": [
       {
-        "school": "University of Kent - UK",
-        "degree": "Bachelor's Degree, Computer Science",
-        "graduated": "July 2016",
+        "school": "Nnamdi Azikiwe University - NG",
+        "degree": "Bachelor's Degree, Electronic/Computer Engineering",
+        "graduated": "Nov. 2019",
         "description": "Graduated with First Class Honours"
       }
     ],
     "work": [
       {
-        "company": "PAPA",
-        "title": "Founder and CEO",
-        "years": "May 2019 - Present",
-        "description": "Cloning all the apps possible. On the way to clone the world! Building the PAPA Fam as large as possible."
+        "company": "Heritage Bank Nigeria",
+        "title": "Software Developer",
+        "years": "Jan 2022 - Present",
+        "description": "Designing and building enterprise APIs using ASP NET Core, Oracle, SQL. Building API collections, automated test script and performing automated test using Postman."
+      },
+      {
+        "company": "Heritage Bank Nigeria",
+        "title": "Quality Assurance Analyst",
+        "years": "Jul 2021 - Jan 2022",
+        "description": "Reviewing business requirement documents. designing test cases, executing test cases and analyzing test results on all new and existing enterprise applications of the bank. Working with developers throughout the development cycle of application, to ensure that all applications meet the required standard."
+      },
+      {
+        "company": "Capt Elechi Amadi Polytechnic Port Harcourt",
+        "title": "Graduate Assistant",
+        "years": "March 2020 - March 2021",
+        "description": "Assisting the academic staff in lecturing students of the Computer Engineering department, during my mandatory NYSC programme."
+      },
+      {
+        "company": "21st Century Techologies Nigeria",
+        "title": "Undergraduate Trainee",
+        "years": "May 2018 - Nov 2018",
+        "description": "Working with the network team whose task is to deliver and manage internet and E1 call services to the various clients of the company in Lagos. Here, I actively involved in planning, installing and maintenance of network devices used for the delivery of internet and E1 call services to clients."
       }
     ],
     "skills": [
       {
-        "name": "ReactJs",
-        "level": "100%"
+        "name": "CSharp",
+        "level": "80%"
       },
       {
-        "name": "Python",
+        "name": "DotNetCore",
+        "level": "90%"
+      },
+      {
+        "name": "React",
         "level": "85%"
+      },
+      {
+        "name": "NextJS",
+        "level": "80%"
+      },
+      {
+        "name": "Java",
+        "level": "70%"
       },
       {
         "name": "Git",
@@ -77,45 +111,64 @@
       },
       {
         "name": "JavaScript",
-        "level": "99%"
+        "level": "70%"
       },
       {
-        "name": "Web Development",
-        "level": "95%"
+        "name": "MySQL",
+        "level": "80%"
+      },
+      {
+        "name": "ORACLE",
+        "level": "70%"
+      },
+      {
+        "name": "MongoDb",
+        "level": "70%"
+      },
+      {
+        "name": "Postman",
+        "level": "90%"
+      }
+    ],
+    "certifications": [
+      {
+        "Issuer" : "AWS",
+        "category": "AWS Solution Architect",
+        "url": "https://www.credly.com/badges/b1deb696-a61a-4c5e-8ca1-b239481d6d96/public_url"
+      },
+      {
+        "Issuer" : "ISTQB",
+        "category": "ISTQB Foundation Level Tester",
+        "url": "https://skillshub.isqi.org/4d2eabc3-dd95-485a-ab48-73732738ccb1"
       }
     ]
   },
   "portfolio": {
     "projects": [
       {
-        "title": "Snapchat Clone (React JS)",
-        "category": "",
-        "image": "snapchat.jpg",
-        "url": "https://youtu.be/1kGISk5ft2w"
+        "title": "Great Quotes (React JS)",
+        "description": "This is a quote application, built with React JS 🐦🔇",
+        "url": "https://react-http-post-35139.web.app/quotes"
       },
       {
-        "title": "Gmail Clone (React JS)",
-        "category": "",
+        "title": "Meetup App (React JS and Next JS)",
+        "description": "This is an application for greet meet up places around the world, built with React JS and Next JS 🐧❤️",
         "image": "gmail.jpg",
-        "url": "https://youtu.be/b7nrXjS6Dqs"
+        "url": "https://nextjs-meetup-app-gamma.vercel.app/"
       },
       {
-        "title": "LinkedIn Clone (React JS)",
-        "category": "",
+        "title": "Gadgets store (React JS)",
+        "description": "This is an eCommerce application, specifically for gadgets, built with React JS 🎨🃏",
         "image": "linkedin.jpg",
-        "url": "https://youtu.be/QaYts9sPmcY"
+        "url": "https://odinaka-ecommerce.web.app/"
       }
     ]
   },
   "testimonials": {
     "testimonials": [
       {
-        "text": "Sonny is absolutely excellent, his depth of knowledge & his mentorship really meant a lot to us... I would definitely recommend",
-        "user": "Jorge Fouto"
-      },
-      {
-        "text": "Learning with Sonny has been AWESOME, he makes learning React so easy and approachable, you'll finally feel like you know what's going on!",
-        "user": "Adam Curtis"
+        "text": "Odinaka is absolutely excellent; mentoring and working with him has truly been delightful... I would definitely recommend",
+        "user": "Bernard Oreva"
       }
     ]
   }

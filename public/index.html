@@ -1,39 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="theme-color" content="#000000" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link  rel="icon" type="image/jpeg" href="%PUBLIC_URL%/images/profilepic.jpeg"  href="images/favicon.png"/>
+    <link rel="stylesheet" href="%PUBLIC_URL%/css/default.css" />
+    <link rel="stylesheet" href="%PUBLIC_URL%/css/layout.css" />
+    <link rel="stylesheet" href="%PUBLIC_URL%/css/media-queries.css" />
+    <link rel="stylesheet" href="%PUBLIC_URL%/css/magnific-popup.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/devicon/2.11.0/devicon.min.css"
+      integrity="sha512-QVvV1k8iL0nu9XAzMIR11N8swkeXyG5nKSnV595s+OVjI4JM8JLRlWfaDZ8bGBGAF/K945Hux9QRIctNkUKNcQ=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      href="styles/bootstrap.min.css"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <link href="styles/styles.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/devicon/2.14.0/devicon-base.min.css"
+      integrity="sha512-QBmAN0VX1lfrhdUcl92KLv3Rxm2NJmAWsGrQd6vnfXExmMLq6MTCmBzeKRqvQ8HczAW3VkUHE5/WKhKObmXTbw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="theme-color" content="#000000">
-  <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
-  <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
-  <link rel="stylesheet" href="%PUBLIC_URL%/css/default.css">
-  <link rel="stylesheet" href="%PUBLIC_URL%/css/layout.css">
-  <link rel="stylesheet" href="%PUBLIC_URL%/css/media-queries.css">
-  <link rel="stylesheet" href="%PUBLIC_URL%/css/magnific-popup.css">
+    <title>Odinaka Afocha's Portfolio</title>
+  </head>
 
+  <body>
+    <noscript> You need to enable JavaScript to run this app. </noscript>
+    <div id="root"></div>
 
-  <title>PAPA Resume Starter Pack</title>
-</head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>
+      window.jQuery ||
+        document.write('<script src="js/jquery-1.10.2.min.js"><\/script>');
+    </script>
+    <script
+      type="text/javascript"
+      src="js/jquery-migrate-1.2.1.min.js"
+    ></script>
 
-<body>
-  <noscript>
-    You need to enable JavaScript to run this app.
-  </noscript>
-  <div id="root"></div>
+        <!-- Fixes for Firefox and IE -->
+        <script>
+          var isIE = !!window.MSInputMethodContext && !!document.documentMode;
+          var isFirefox = navigator.userAgent.toLowerCase().indexOf("firefox") > -1;
+    
+          if (isIE || isFirefox) {
+            var font = document.createElement("link");
+            font.rel = "stylesheet";
+            font.type = "text/css";
+            font.href = "https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap";
+            document.head.appendChild(font);
+            var fontAwesome = document.createElement("link");
+            fontAwesome.rel = "stylesheet";
+            fontAwesome.type = "text/css";
+            fontAwesome.href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css";
+            document.head.appendChild(fontAwesome);
+            var devicon = document.createElement("link");
+            devicon.rel = "stylesheet";
+            devicon.type = "text/css";
+            devicon.href = "https://cdnjs.cloudflare.com/ajax/libs/devicon/2.4/devicon.min.css";
+            document.head.append(devicon);
+            var bootstrap = document.createElement("link");
+            bootstrap.rel = "stylesstylesheet";
+            bootstrap.type = "text/css";
+            bootstrap.href = "https://cdnjs.cloudflare.com/ajax/libs/devicon/2.4/devicon.min.css";
+            document.head.append(bootstrap);
+          }
+        </script>
 
-
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-  <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
-  <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
-
-  <script src="js/jquery.flexslider.js"></script>
-  <script src="js/waypoints.js"></script>
-  <script src="js/jquery.fittext.js"></script>
-  <script src="js/magnific-popup.js"></script>
-  <script src="js/init.js"></script>
-
-</body>
-
+    <script src="js/jquery.flexslider.js"></script>
+    <script src="js/waypoints.js"></script>
+    <script src="js/jquery.fittext.js"></script>
+    <script src="js/magnific-popup.js"></script>
+    <script src="js/init.js"></script>
+  </body>
 </html>

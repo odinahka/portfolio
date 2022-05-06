@@ -2,6 +2,7 @@ import React from "react";
 
 const Footer = ({ data }) => {
   if (data) {
+    var email = data.email
     var networks = data.social.map(function (network) {
       return (
         <li key={network.name}>
@@ -21,10 +22,7 @@ const Footer = ({ data }) => {
 
           <ul className="copyright">
             <li>
-              Made by{" "}
-              <a title="PAPA" href="http://www.papareact.com/">
-                PAPA
-              </a>
+              Made with ❤ by <a title="Odinaka" href={"mailto:"+email}> Odinaka</a>
             </li>
           </ul>
         </div>

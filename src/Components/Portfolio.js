@@ -1,24 +1,16 @@
 import React from "react";
 
+import styles from './Portfolio.module.css';
+
 const Portfolio = ({ data }) => {
   if (data) {
     var projects = data.projects.map(function (projects) {
-      var projectImage = "images/portfolio/" + projects.image;
       return (
-        <div key={projects.title} className="columns portfolio-item">
-          <div className="item-wrap">
-            <a href={projects.url} title={projects.title}>
-              <img alt={projects.title} src={projectImage} />
-              <div className="overlay">
-                <div className="portfolio-item-meta">
-                  <h5>{projects.title}</h5>
-                  <p>{projects.category}</p>
-                </div>
-              </div>
-              <div className="link-icon">
-                <i className="fa fa-link"></i>
-              </div>
-            </a>
+        <div key={projects.title} className={`${styles.portfolio} ${styles.shadow}`}>
+          <div>
+            <h3>{projects.title}</h3>
+            <p>{projects.description}</p>
+            <a href={projects.url} target="_blank" rel="noreferrer" className="btn-rounded-blue">View Project</a>
           </div>
         </div>
       );
@@ -26,19 +18,9 @@ const Portfolio = ({ data }) => {
   }
 
   return (
-    <section id="portfolio">
-      <div className="row">
-        <div className="twelve columns collapsed">
-          <h1>Check Out Some of My Works.</h1>
-
-          <div
-            id="portfolio-wrapper"
-            className="bgrid-quarters s-bgrid-thirds cf"
-          >
-            {projects}
-          </div>
-        </div>
-      </div>
+    <section id="portfolio" className={styles.portfolios}>
+      <h2 className={styles.heading}>Check Out Some of My Works.</h2>
+      <div className={styles.portfolios_grid}>{projects}</div>
     </section>
   );
 };
